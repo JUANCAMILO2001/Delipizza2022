@@ -1253,12 +1253,12 @@ footer.fixed-footer:before {
 }
 .brush-dec {
     bottom:0;
-    background:url(../images/bg/brush-dec.png);
+    background:url(../images/menu/brush-dec.png);
 }
 .brush-dec2 {
     top:-2px;
     height:50px;
-    background:url(../images/bg/brush-dec_2.png);
+    background:url(../images/menu/brush-dec_2.png);
 }
 .brush-dec2.brush-dec_bottom {
     top:100%;
@@ -2899,7 +2899,7 @@ section.parallax-section.hero-section .section-title h2 {
 .gallery-item img,
 .grid-sizer img {
     width: 100%;
-    height: auto;
+    height: 200px;
     position: relative;
     z-index: 1;
     background: #292929;
@@ -4789,6 +4789,14 @@ cite.fn .star-rating {
     .single-menu .hero-menu_header li {
         margin-bottom:20px;
     }
+    .table-cart {
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+    .table-cart table {
+        min-width: 800px;
+    }
+
 }
 @media only screen and (max-width: 600px) {
     .show-reserv_button i{
@@ -4867,6 +4875,13 @@ cite.fn .star-rating {
     }
     .single-menu .hero-menu-item, .single-menu .hero-menu-item:nth-child(even) , .menu-wrapper.single-menu .hero-menu-item:nth-child(even) {
         padding-right:0 !important;
+    }
+    .table-cart {
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+    .table-cart table {
+        min-width: 800px;
     }
 }
 @media only screen and (max-width: 560px) {
@@ -4986,6 +5001,13 @@ cite.fn .star-rating {
     .big-number a {
         font-size: 20px;
     }
+    .table-cart {
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+    .table-cart table {
+        min-width: 800px;
+    }
 
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
@@ -4998,6 +5020,26 @@ cite.fn .star-rating {
 @media only screen and (max-width: 375px) {
     .vismobmenu {
         right:34px;
+    }
+    .coupon-holder button{
+        float: left;
+        height: 40px;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        padding: 0 10px;
+        background: #292929;
+        -webkit-appearance: none;
+        font-family: 'Playfair Display', cursive;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .table-cart {
+        overflow-x: auto !important;
+        overflow-y: auto;
+    }
+    .table-cart table {
+        min-width: 800px;
     }
 }
 @media only screen and (max-width: 355px) {

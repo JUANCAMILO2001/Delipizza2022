@@ -10,28 +10,27 @@
             <div class="close-reservation-modal crm"><i class="fal fa-times"></i></div>
             <div class="reservation-bg"></div>
             <div class="section-title">
-                <h4>Don't forget to book a table</h4>
-                <h2>Table Reservations</h2>
+                <h4>No olvides reservar tu mesa</h4>
+                <h2>Reserva tu mesa</h2>
                 <div class="dots-separator fl-wrap"><span></span></div>
-            </div>
             <div class="reservation-wrap">
                 <div id="reserv-message"></div>
                 <form  class="custom-form" action="php/reservation.php" name="reservationform" id="reservationform">
                     <fieldset>
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="text" name="name" id="name" placeholder="Your Name *" value=""/>
+                                <input type="text" name="name" id="name" placeholder="Tu Nombre *" value=""/>
                             </div>
                             <div class="col-sm-6">
-                                <input type="text"  name="email" id="email" placeholder="Email Address *" value=""/>
+                                <input type="text"  name="email" id="email" placeholder="Correo Electronico *" value=""/>
                             </div>
                             <div class="col-sm-6">
-                                <input type="text"  name="phone" id="phone" placeholder="Phone *" value=""/>
+                                <input type="text"  name="phone" id="phone" placeholder="Celular *" value=""/>
                             </div>
                             <div class="col-sm-6">
                                 <div class="fl-wrap">
-                                    <select name="numperson" id="persons" data-placeholder="Persons" class="chosen-select no-search-select">
-                                        <option data-display="Persons">Any</option>
+                                    <select name="numperson" id="persons" data-placeholder="Personas" class="chosen-select no-search-select">
+                                        <option data-display="Personas">Any</option>
                                         <option value="1">1 Person</option>
                                         <option value="2">2 People</option>
                                         <option value="3">3 People</option>
@@ -44,13 +43,13 @@
                             <div class="clearfix"></div>
                             <div class="col-sm-6">
                                 <div class="date-container2 fl-wrap">
-                                    <input type="text" placeholder="Date" id="res_date"     name="resdate"   value=""/>
+                                    <input type="text" placeholder="Fecha" id="res_date"     name="resdate"   value=""/>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="fl-wrap">
-                                    <select name="restime" id="resrv-time" data-placeholder="Time" class="chosen-select no-search-select">
-                                        <option data-display="Time">Any</option>
+                                    <select name="restime" id="resrv-time" data-placeholder="Hora" class="chosen-select no-search-select">
+                                        <option data-display="Hora">Any</option>
                                         <option value="10:00am">10:00 am</option>
                                         <option value="11:00am">11:00 am</option>
                                         <option value="12:00pm">12:00 pm</option>
@@ -68,9 +67,9 @@
                                 </div>
                             </div>
                         </div>
-                        <textarea name="comments"  id="comments" cols="30" rows="3" placeholder="Your Message:"></textarea>
+                        <textarea name="comments"  id="comments" cols="30" rows="3" placeholder="Tu Mensaje:"></textarea>
                         <div class="clearfix"></div>
-                        <button class="btn color-bg" id="reservation-submit">Reserve Table  <i class="fal fa-long-arrow-right"></i></button>
+                        <button class="btn color-bg" id="reservation-submit">Reservar Mesa <i class="fal fa-long-arrow-right"></i></button>
                     </fieldset>
                 </form>
             </div>

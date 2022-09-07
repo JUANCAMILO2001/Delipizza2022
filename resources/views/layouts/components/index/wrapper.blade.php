@@ -15,6 +15,8 @@
                             <br>
                            Ahora podras continuar con tu Orden.
                            </h2>
+                        <a href="{{route('menu')}}" class="hero_btn">Ordenar Ahora <i class="fal fa-long-arrow-right"></i></a>
+
                     </div>
                 </div>
             </div>
@@ -776,7 +778,7 @@
                             <div class="col-md-3">
                                 <div class="hero-menu_header fl-wrap">
                                     <ul class="tabs-menu     no-list-style change_bg">
-                                        <li class="current"><a href="#tab-1" data-bgtab="https://i.pinimg.com/originals/29/48/3d/29483d95a01e53e376939bae351c2bbb.jpg"><span>01.</span>Pizzas</a></li>
+                                        <li class="current"><a href="#tab-1" data-bgtab="./Restabook/images/menu/Pizza.jpg"><span>01.</span>Pizzas</a></li>
                                         <li><a href="#tab-2" data-bgtab="https://img.freepik.com/fotos-premium/hamburguesa-jugosa-tablero-fondo-negro-fondo-oscuro-comida-rapida-comida-tradicional-americana-copie-espacio_124865-6813.jpg"><span>02.</span>Hamburguesa</a></li>
                                         <li><a href="#tab-3" data-bgtab="https://c.wallhere.com/photos/79/93/1920x1280_px_food_Fries_Tomatoes-840079.jpg!d"><span>03.</span>Salchipapa</a></li>
                                         <li><a href="#tab-4" data-bgtab="https://media.istockphoto.com/photos/two-juicy-hot-dogs-on-dark-slate-background-picture-id1003820794?b=1&k=6&m=1003820794&s=170667a&w=0&h=uHpjV-BIVmHNxf1Lo7A0Zbzpppr-ywIhBCTIeNJg9oM="><span>04.</span>Perro caliente</a></li>
@@ -1053,6 +1055,7 @@
                 </div>
             </section>
 
+            <div class="brush-dec2 brush-dec_bottom"></div>
 
         </div>
 
