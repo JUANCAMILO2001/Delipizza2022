@@ -38,7 +38,7 @@
                     <div class="gallery-item Pizza">
                         <div>
                             <div class="grid-item-holder hov_zoom">
-                                <img  src="/Restabook/images/menu/{{ $pro->image_path }}"   alt="{{ $pro->image_path }}">
+                                <img  src="./Restabook/images/menu/{{ $pro->image_path }}"   alt="{{ $pro->image_path }}">
                             </div>
                             <div class="grid-item-details">
                                 <h3>{{ $pro->name }}</h3>

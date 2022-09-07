@@ -54,7 +54,7 @@
                         @foreach($cartCollection as $item)
                             <tr>
                                 <td >
-                                    <a href="#"><img src="/Restabook/images/menu/{{ $item->attributes->image }}" class="respimg"></a>
+                                    <a href="#"><img src="./Restabook/images/menu/{{ $item->attributes->image }}" class="respimg"></a>
                                 </td>
                                 <td>
                                     <h5 class="product-name">{{ $item->name }}</h5>

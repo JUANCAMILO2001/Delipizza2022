@@ -10,7 +10,7 @@
 
                 <ul>
                     <li class="clearfix">
-                        <a href="#"  class="widget-posts-img"><img src="/Restabook/images/menu/{{ $item->attributes->image }}" class="respimg" alt=""></a>
+                        <a href="#"  class="widget-posts-img"><img src="./Restabook/images/menu/{{ $item->attributes->image }}" class="respimg" alt=""></a>
                         <div class="widget-posts-descr">
                             <a href="#" title="">{{$item->name}}</a>
                             <div class="widget-posts-descr_calc clearfix">CNT/PRD: {{ $item->quantity }} <span>X</span> ${{ $item->price }}</div>
