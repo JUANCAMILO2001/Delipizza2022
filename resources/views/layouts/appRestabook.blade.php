@@ -32,9 +32,13 @@
         <div class="element-item"></div>
     </div>
 </div>
+<script  src="http://maps.google.com/maps/api/js?key=AIzaSyDwJSRi0zFjDemECmFl9JtRj1FY7TiTRRo"></script>
 <script src="./Restabook/js/jquery.min.js"></script>
 <script src="./Restabook/js/plugins.js"></script>
 <script src="./Restabook/js/scripts.js"></script>
 <script src="./Reestabook/js/cs-scripts.js"></script>
+<script  src="./Reestabook/js/map.js"></script>
+
+
 </body>
 </html>

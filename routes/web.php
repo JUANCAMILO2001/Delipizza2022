@@ -29,6 +29,9 @@ Route::get('/', function () {
 Route::get('/proximamente', function () {
     return view('proximamente');
 });
+Route::get('/contact', function () {
+    return view('contact');
+});
 
 
 Route::get('/register', [RegisterController::class, 'create'])->name('register.index')->middleware('guest');
