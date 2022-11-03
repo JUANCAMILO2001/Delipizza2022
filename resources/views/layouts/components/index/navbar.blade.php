@@ -20,11 +20,7 @@
                             <span class="header-tooltip">Cerrar Sesión</span>
                         </a>
                     </div>
-                    <!-- Reservaciones  -->
-                    <div class="show-reserv_button show-rb">
-                        <span>Reservacion</span>
-                        <i class="fal fa-bookmark"></i>
-                    </div>
+
                     <!-- Carrito navbar -->
                     <div class="show-cart sc_btn htact">
                         <i class="fal fa-shopping-bag"></i>
@@ -51,8 +47,7 @@
                                 <li>
                                     <a href="{{route('menu')}}">Menú</a>
                                 </li>
-                                <li><a href="#">Sobre Nosotros</a></li>
-                                <li><a href="#">Contactos</a></li>
+                                <li><a href="{{route('contact')}}">Contactos</a></li>
 
                             </ul>
                         </nav>
@@ -71,10 +66,18 @@
                     <a href="{{route('index')}}" class="logo-holder">
                         <img src="./Restabook/images/Delipizza.png" alt="">
                     </a>
-                    <div class="show-reserv_button show-rb">
-                        <span>Reservacion</span>
-                        <i class="fal fa-bookmark"></i>
+
+                    <!-- Reservaciones  -->
+                    <div class="show-reserv_button ">
+                        <a href="{{route('register.index')}}">
+                            <span>Registrarse</span>
+                            <i class="material-symbols-outlined" style="color: #666;padding-top: 24px;">
+                                person_add
+                            </i>
+                        </a>
                     </div>
+
+
 
                     <div class="show-share-btn showshare htact ">
                         <a href="{{route('login.index')}}"><i class="material-symbols-outlined" style="color: #666;padding-top: 24px;">
@@ -104,8 +107,7 @@
                                 <li>
                                     <a href="{{route('menu')}}">Menú</a>
                                 </li>
-                                <li><a href="#">Sobre Nosotros</a></li>
-                                <li><a href="#">Contactos</a></li>
+                                <li><a href="{{route('contact')}}">Contactos</a></li>
 
                             </ul>
                         </nav>

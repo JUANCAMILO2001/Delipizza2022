@@ -571,7 +571,7 @@ blockquote p {
 }
 .clear-cart_button {
     cursor:pointer;
-    border-radius:100%;
+    border: none;
     text-align:center;
     position:absolute;
     right:6px;
@@ -3401,7 +3401,7 @@ h4.cart-title {
     position:relative;
     float:left;
     width:350px;
-    background:#f9f9f9;
+    background:#292929;
     padding:25px 30px;
     top:220px;
 }
@@ -3410,8 +3410,9 @@ h4.cart-title {
 }
 .contact-details {
     padding:40px 30px 50px;
-    border:1px  dotted #ccc;
-    background:#fff;
+    border: 1px dashed rgba(255,255,255,0.2);
+    background: rgba(0, 0, 0, 0.30);
+    color: white;
 }
 .contact-details:after {
     position: absolute;
@@ -3450,7 +3451,7 @@ h4.cart-title {
 }
 .contact-details li a {
     font-weight:600;
-    color:#222;
+    color:#FFFFFF;
     padding-left:6px;
     transition: all .2s ease-in-out;
 }
@@ -4802,12 +4803,12 @@ cite.fn .star-rating {
     .show-reserv_button i{
         display:block;
         font-weight: 400;
-        font-size:18px;
-        top:26px;
+        margin-right: 15px;
+
     }
     .show-reserv_button  , .show-share-btn  , .show-cart , .nav-button-wrap{
         padding:0;
-        width:40px;
+
         border-left:none;
     }
     .show-reserv_button span  , .contact-details:after{

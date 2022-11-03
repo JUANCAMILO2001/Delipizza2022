@@ -283,7 +283,7 @@
                 <div class="clearfix"></div>
                 <div class="bold-separator bold-separator_dark"><span></span></div>
                 <div class="clearfix"></div>
-                <a href="#" class="btn  ">Descargar Menu en PDF.<i class="fal fa-long-arrow-right"></i></a>
+                <a href="./Restabook/pdf/menu-delipizza.pdf" class="btn" target="_blank">Descargar Menu en PDF.<i class="fal fa-long-arrow-right"></i></a>
             </div>
             <div class="section-bg">
                 <div class="bg"  data-bg="./Restabook/images/menu/section-bg.png"></div>

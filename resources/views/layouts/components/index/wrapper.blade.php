@@ -1047,8 +1047,8 @@
                             </div>
                             <!--  hero-menu_content end  -->
                             <div class="clearfix"></div>
-                            <a href="menu.html" class="hero_btn" style="margin-left:30px; font-size: 15px;">Ver Menú Completo<i class="fal fa-long-arrow-right"></i></a>
-                            <a href="#" class="pdf-link">Descargar PDF</a>
+                            <a href="{{route('menu')}}" class="hero_btn" style="margin-left:30px; font-size: 15px;">Ver Menú Completo<i class="fal fa-long-arrow-right"></i></a>
+                            <a href="./Restabook/pdf/menu-delipizza.pdf" target="_blank" class="pdf-link">Descargar PDF</a>
                         </div>
                     </div>
                     <!--  hero-menu  end-->

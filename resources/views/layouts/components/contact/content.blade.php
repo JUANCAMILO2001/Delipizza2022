@@ -5,23 +5,29 @@
         <div class="content">
             <section class=" no-padding dark-bg hidden-section">
                 <div class="map-container">
-                    <div id="singleMap"></div>
-                    <div class="scrollContorl"></div>
+                    <div id="singleMap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15908.337307348946!2d-74.1592163!3d4.5788768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1667437279792!5m2!1ses-419!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  ></iframe>
+                    </div>
+
                 </div>
                 <!-- map-view-wrap -->
                 <div class="map-view-wrap">
+
                     <div class="container">
                         <div class="map-view-wrap_item">
+
                             <div class="contact-details">
-                                <h4>Contacts Details</h4>
+
+                                <h4>Detalles de Contacto</h4>
                                 <ul>
-                                    <li><span><i class="fal fa-map-marked-alt"></i> Adress :</span> <a href="#">USA 27TH Brooklyn NY</a></li>
-                                    <li><span><i class="fal fa-phone-rotary"></i> Phone :</span> <a href="#">+7(123)987654</a></li>
-                                    <li><span><i class="fal fa-mailbox"></i> Mail :</span> <a href="#">yourmail@domain.com</a></li>
+                                    <li><span><i class="fal fa-map-marked-alt"></i> Direccion:</span> <a href="#">Cll 64 #64-27b Sur</a></li>
+                                    <li><span><i class="fal fa-phone-rotary"></i> Telefono:</span> <a href="#">+57 666999777</a></li>
+                                    <li><span><i class="fal fa-mailbox"></i> Email:</span> <a href="#">Delipizza@gmail.com</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <!--map-view-wrap end -->
                 <div class="brush-dec"></div>
@@ -32,7 +38,7 @@
                     <div class="row">
                         <div class="col-md-7">
                             <div class="section-title text-align_left">
-                                <h2>Get in touch</h2>
+                                <h2>Ponerse en contacto</h2>
                                 <div class="dots-separator fl-wrap"><span></span></div>
                             </div>
                             <div class="text-block ">
@@ -46,29 +52,18 @@
                                         <div id="message2"></div>
                                         <div class="row">
                                             <div class="col-sm-6">
-                                                <input type="text" name="name" id="name2" placeholder="Your Name *" value=""/>
+                                                <input type="text" name="name" id="name2" placeholder="Su Nombre *" value=""/>
                                             </div>
                                             <div class="col-sm-6">
-                                                <input type="text"  name="email" id="email2" placeholder="Email Address *" value=""/>
+                                                <input type="text"  name="email" id="email2" placeholder="Correo Electronico *" value=""/>
                                             </div>
                                             <div class="col-sm-6">
-                                                <input type="text"  name="phone" id="phone2" placeholder="Phone *" value=""/>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class=" fl-wrap">
-                                                    <select name="subject" id="subject2" class="chosen-select no-search-select">
-                                                        <option data-display="Subject">Any</option>
-                                                        <option value="Upcoming Events">Upcoming Events </option>
-                                                        <option value="Book table">Book table</option>
-                                                        <option value="Banquet">Banquet</option>
-                                                        <option value="Banquet">Other</option>
-                                                    </select>
-                                                </div>
+                                                <input type="text"  name="phone" id="phone2" placeholder="Telefono *" value=""/>
                                             </div>
                                         </div>
-                                        <textarea name="comments"  id="comments2" cols="40" rows="3" placeholder="Your Message:"></textarea>
+                                        <textarea name="comments"  id="comments2" cols="40" rows="3" placeholder="Tu mensaje:"></textarea>
                                         <div class="clearfix"></div>
-                                        <button class="btn float-btn flat-btn color-bg" id="submit_cnt">Send Message <i class="fal fa-long-arrow-right"></i></button>
+                                        <button class="btn float-btn flat-btn color-bg" id="submit_cnt">Enviar Mensaje <i class="fal fa-long-arrow-right"></i></button>
                                     </fieldset>
                                 </form>
                             </div>
@@ -78,41 +73,41 @@
                             <div class="column-text_inside fl-wrap dark-bg" >
                                 <div class="column-text">
                                     <div class="section-title">
-                                        <h4>Call For Reservations</h4>
-                                        <h2>Opening Hours</h2>
+                                        <h4>Llame para Reservaciones</h4>
+                                        <h2>Horario Apertura</h2>
                                         <div class="dots-separator fl-wrap"><span></span></div>
                                     </div>
                                     <div class="work-time fl-wrap">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <h3>Sunday to Tuesday</h3>
+                                                <h3>Lunes a Viernes</h3>
                                                 <div class="hours">
-                                                    09:00<br>
-                                                    22:00
+                                                    04:30 PM<br>
+                                                    10:00 PM
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Friday to Saturday</h3>
+                                                <h3>Sabados y Domingos</h3>
                                                 <div class="hours">
-                                                    11:00<br>
-                                                    19:00
+                                                    4:00 PM<br>
+                                                    11:30 PM
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="clearfix"></div>
                                     <div class="bold-separator"><span></span></div>
-                                    <div class="big-number"><a href="#">+7(111)123456789</a></div>
+                                    <div class="big-number"><a href="#">+57 666999777</a></div>
                                 </div>
                                 <div class="illustration_bg">
-                                    <div class="bg"  data-bg="images/bg/dec/6.png"></div>
+                                    <div class="bg"  data-bg="./Restabook/images/6.png"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="section-bg">
-                    <div class="bg"  data-bg="images/bg/dec/section-bg.png"></div>
+                    <div class="bg"  data-bg="./Restabook/images/section-bg.png"></div>
                 </div>
             </section>
             <!--  section end  -->
