@@ -4836,6 +4836,11 @@ cite.fn .star-rating {
     .contact-details {
         border:none;
         padding:60px 0 0;
+        background: #FFFFFF;
+        color: black;
+    }
+    .contact-details li a{
+        color: black;
     }
     .contact-details h4 {
         text-align:left;
