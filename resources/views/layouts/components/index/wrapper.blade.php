@@ -66,7 +66,7 @@
                                     nace una gran parte de la historia de este barrio, siendo nosotros uno de los primeros
                                     inquilinos de este amada urbanizacion.
                                 </p>
-                                <a href="menu.html" class="btn fl-btn">Ver Menú<i class="fal fa-long-arrow-right"></i></a>
+                                <a href="{{route('menu')}}" class="btn fl-btn">Ver Menú<i class="fal fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -517,8 +517,8 @@
                             </div>
                             <!--  hero-menu_content end  -->
                             <div class="clearfix"></div>
-                            <a href="menu.html" class="hero_btn" style="margin-left:30px; font-size: 15px;">Ver Menú Completo<i class="fal fa-long-arrow-right"></i></a>
-                            <a href="#" class="pdf-link">Descargar PDF</a>
+                            <a href="{{route('menu')}}" class="hero_btn" style="margin-left:30px; font-size: 15px;">Ver Menú Completo<i class="fal fa-long-arrow-right"></i></a>
+                            <a href="./Restabook/pdf/menu-delipizza.pdf" class="pdf-link">Descargar PDF</a>
                         </div>
                     </div>
                     <!--  hero-menu  end-->
@@ -596,7 +596,7 @@
                                     nace una gran parte de la historia de este barrio, siendo nosotros uno de los primeros
                                     inquilinos de este amada urbanizacion.
                                 </p>
-                                <a href="menu.html" class="btn fl-btn">Ver Menú<i class="fal fa-long-arrow-right"></i></a>
+                                <a href="{{route('menu')}}" class="btn fl-btn">Ver Menú<i class="fal fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                         <div class="col-md-6">

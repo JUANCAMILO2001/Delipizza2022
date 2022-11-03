@@ -3363,9 +3363,7 @@ h4.cart-title {
 .contactform-wrap {
     margin-top:40px;
 }
-.contactform-wrap .btn {
-    float:left;
-}
+
 .contactform-wrap .custom-form textarea {
     min-height: 90px;
 }

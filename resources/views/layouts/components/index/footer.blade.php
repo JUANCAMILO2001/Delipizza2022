@@ -21,7 +21,7 @@
                         <div class="footer-widget-title">Sobre Nosotros</div>
                         <div class="footer-widget-content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eaque ipsa quae ab illo inventore veritatis et quasi architecto. </p>
-                            <a href="#" class="footer-widget-content-link">Leer Más</a>
+
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                                     <li><span>Ubicados: </span><a href="#">Isla del sol</a></li>
                                 </ul>
                             </div>
-                            <a href="#" class="footer-widget-content-link">Ponerse en Contacto</a>
+                            <a href="{{route('contact')}}" class="footer-widget-content-link">Ponerse en Contacto</a>
                         </div>
                     </div>
                 </div>
