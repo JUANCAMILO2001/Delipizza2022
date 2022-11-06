@@ -5,7 +5,7 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\SessionsController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\CartController;
-
+use App\Http\Controllers\AdminController;
 
 
 /*
@@ -63,3 +63,16 @@ Route::post('/remove', [CartController::class, 'remove'])->name('cart.remove');
 Route::post('/clear', [CartController::class, 'clear'])->name('cart.clear');
 
 
+/*
+|
+|
+|
+-------------------------------- Rutas roles admin --------------------
+|
+|
+|
+*/
+
+Route::get('/admin', [AdminController::class, 'index'])
+        ->middleware('auth.admin')
+        ->name('admin.index');
