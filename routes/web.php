@@ -74,5 +74,6 @@ Route::post('/clear', [CartController::class, 'clear'])->name('cart.clear');
 */
 
 Route::get('/admin', [AdminController::class, 'index'])
-        ->middleware('auth.admin')
-        ->name('admin.index');
+    ->middleware('auth.admin')
+    ->name('admin.index');
+
