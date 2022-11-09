@@ -228,7 +228,7 @@ a {
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #381be7;
+    color: #FFFFFF;
     text-decoration: underline; }
 
 a:not([href]):not([class]) {
@@ -3060,29 +3060,33 @@ input[type="button"].btn-block {
 
 .dropdown-menu[x-placement^="top"], .dropdown-menu[x-placement^="right"], .dropdown-menu[x-placement^="bottom"], .dropdown-menu[x-placement^="left"] {
   right: auto;
-  bottom: auto; }
+  bottom: auto;
+
+}
 
 .dropdown-divider {
   height: 0;
   margin: 0.5rem 0;
   overflow: hidden;
-  border-top: 1px solid #f8f9fa; }
+  border-top: 1px solid #f8f9fa;
+}
 
 .dropdown-item {
+
   display: block;
   width: 100%;
   padding: 0.65rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #FFFFFF;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
   border: 0; }
   .dropdown-item:hover, .dropdown-item:focus {
-    color: #16181b;
+    color: #C19D60;
     text-decoration: none;
-    background-color: #f8f9fa; }
+    background-color: #292929; }
   .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
@@ -11318,7 +11322,7 @@ html {
   min-height: 100%; }
 
 a {
-  color: #009efb; }
+  color: #8991A9; }
 
 a:hover,
 a:focus {
@@ -13349,6 +13353,19 @@ File: scss
 
 .imguser{
     padding-top: 350px;
+}
+.iconConfigAdmin{
+    background: #292929;
+    padding: 15px 10px;
+}
+.iconConfigAdmin a{
+    font-size: 18px;
+
+
+}
+.iconConfigAdmin a i{
+    padding-left: 40px;
+    font-size: 16px;
 }
 
 
