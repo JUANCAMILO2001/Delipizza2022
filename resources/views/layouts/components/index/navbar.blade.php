@@ -37,6 +37,9 @@
                         </div>
                     </div>
 
+                    @if(auth()->user()->role=='admin')
+
+
                     <!--  navigation  de navs-->
                     <div class="nav-holder main-menu">
                         <nav>
@@ -48,6 +51,7 @@
                                     <a href="{{route('menu')}}">Menú</a>
                                 </li>
                                 <li><a href="{{route('contact')}}">Contactos</a></li>
+                                <li><a href="{{route('admin.index')}}">Vista admin</a></li>
 
                             </ul>
                         </nav>
@@ -56,8 +60,25 @@
                     <!-- container 2 -->
                     @include('layouts.components.cart.cartmodal-navbar')
 
+                    @else
+                        <div class="nav-holder main-menu">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="{{route('index')}}" class="act-link">Inicio </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{route('menu')}}">Menú</a>
+                                    </li>
+                                    <li><a href="{{route('contact')}}">Contactos</a></li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    @endif
                 </div>
             </div>
+
 
         @else
 

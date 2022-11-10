@@ -13368,6 +13368,70 @@ File: scss
     font-size: 16px;
 }
 
+.btnadmin{
+    font-weight:600;
+    font-family: 'Playfair Display', cursive;
+    background:#fff;
+    border:1px solid #C19D60;
+    cursor:pointer;
+    opacity:0;
+    visibility:hidden;
+    transition: all .2s ease-in-out;
+}
+
+.btnadmin{
+    opacity:1;
+    bottom:0;
+    visibility:visible;
+    background:#fff;
+}
+
+.btnadmin:hover{
+    color:#FFFFFF;
+    background: #C19D60;
+}
+.footeradmin a{
+    color: black;
+}
+.footeradmin a:hover{
+    color: #C19D60;
+}
+
+.bold-separator {
+    max-width:400px;
+    margin:0  auto 50px;
+    position:relative;
+}
+.bold-separator span {
+    width:6px;
+    height:6px;
+    display:inline-table;
+    background:#fff;
+    margin:0 auto;
+    border-radius:100%;
+}
+.bold-separator span{
+    background:#292929;
+}
+.bold-separator.bold-separator_dark {
+    margin:15px  auto 30px;
+}
+.bold-separator:before , .bold-separator:after {
+    content:'';
+    background: black;
+    position:absolute;
+    width:30%;
+    height:1px;
+    top:50%;
+    opacity:0.3;
+}
+.bold-separator:before {
+    left:0;
+}
+.bold-separator:after {
+    right:0;
+}
+
 
 /*
 Template Name: Admin Template

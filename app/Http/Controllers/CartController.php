@@ -54,4 +54,17 @@ class CartController extends Controller
         return redirect()->route('cart.index')->with('success_msg', 'Car is cleared!');
     }
 
+
+    public function index (){
+        $products = Product::all();
+        //dd($products);
+        return view('admin.index',compact('products'));
+
+    }
+    public function create(){
+        $products = Product::all();
+        return view('admin.nuevoproducto',compact('products'));
+    }
+
+
 }

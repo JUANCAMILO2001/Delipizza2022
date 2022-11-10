@@ -24,6 +24,7 @@ class CreateProductsTable extends Migration
             $table->integer('category_id');
             $table->unsignedInteger('brand_id')->unsigned();
             $table->string('image_path');
+            $table->string('comentario');
             $table->timestamps();
         });
 

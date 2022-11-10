@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title') - DeliPizza</title>
-
+    <link rel="shortcut icon" href="./Restabook/images/logo.ico">
     <link href="./sidebar/css/style.css" rel="stylesheet">
     <link href="./sidebar/css/dashboard1.css" rel="stylesheet">
     <link rel="stylesheet" href="./sidebar/assets/icons/font-awesome/css/font-awesome.min.css">
@@ -21,8 +21,9 @@
 
 <div id="main-wrapper">
 
-    @include('layouts.components.entorno.navbar')
-    @include('layouts.components.entorno.sidebar')
+@include('layouts.components.entorno.navbar')
+@include('layouts.components.entorno.sidebar')
+
     <div class="page-wrapper">
         <!-- ============================================================== -->
         <!-- Container fluid  -->
@@ -34,6 +35,7 @@
         </div>
     </div>
     @include('layouts.components.entorno.footer')
+
 
 
 </div>

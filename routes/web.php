@@ -8,6 +8,7 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\AdminController;
 
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -77,7 +78,7 @@ Route::get('/admin', [AdminController::class, 'index'])
     ->middleware('auth.admin')
     ->name('admin.index');
 
-Route::get('/nuevoproducto', function (){
-    return view('nuevoproducto');
-});
+Route::get('/nuevoproducto',[CartController::class, 'create'])
+    ->middleware('auth.admin')
+    ->name('admin.nuevoproducto');
 

@@ -12,7 +12,7 @@
         <nav class="sidebar-nav">
             <ul id="sidebarnav">
                 <li>
-                    <a class="waves-effect waves-dark" href="index.html" aria-expanded="false">
+                    <a class="waves-effect waves-dark" href="{{route('admin.nuevoproducto')}}" aria-expanded="false">
                         <i class="fa  fa-plus"></i>
                         <span class="hide-menu">Añadir Productos</span>
                     </a>
@@ -51,9 +51,9 @@
 
 
                 <li class="imguser">
-                    <a class="waves-effect waves-dark disabled"  aria-expanded="false" >
+                    <a class="waves-effect waves-dark" href="{{route('admin.index')}}" aria-expanded="false" >
                         <i >
-                            <img src="./sidebar/img/1.jpg" alt="user" class="img-circle" width="30">
+                            <img  src="https://tif-picture.herokuapp.com/svg?bg=303f9f&name={{Auth::user()->name}}" alt="user" class="img-circle" width="30">
                         </i>
                         <span class="hide-menu">{{auth()->user()->name}}</span>
                     </a>
